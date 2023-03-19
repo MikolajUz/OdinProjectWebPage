@@ -1,0 +1,109 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 0 200px 0 200px;
+    align-items: center;
+    min-width: 500px;
+
+}
+.logo{
+    display: flex;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 24px;
+}
+.links{
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    gap: 10px;
+}
+.firstcontainer{
+    display: flex;
+    background-color: #1f2937;
+    padding: 100px 200px 100px 200px;
+}
+
+.firstboxtitle{
+    display: flex;
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.firstboxtext{
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    flex-wrap: wrap;
+}
+button{
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    
+  }
+  .secondbox{
+    display: flex;
+    color: #F9FAF8;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+  }
+.secondcontainer{
+    background-color: white;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.secondcontainertitle{
+    display: flex;
+}
+
+.secondcontainerboxcontainer{
+    display: flex;
+    gap: 25px;
+    padding: 20px;
+    justify-content: center;
+}
+.secondcontainerboxcontainercolumn{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.picturecontainer{
+    border-width: 2px;
+    border: 2px solid #3882f6;
+    border-radius: 6px;
+    display: flex;
+
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    min-width: 100px;
+    min-height: 100px;
+    
+}
+.picturecaption{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    color: #aaacb1;
+    text-align: center;
+    width: 100px;
+    
+    
+}
+
