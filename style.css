@@ -7,7 +7,7 @@ body{
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
-    padding: 0 200px 0 200px;
+    
     align-items: center;
     min-width: 500px;
 
@@ -28,6 +28,7 @@ body{
     display: flex;
     background-color: #1f2937;
     padding: 100px 200px 100px 200px;
+    justify-content: center;
 }
 
 .firstboxtitle{
@@ -64,7 +65,7 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 100px 200px 100px 200px;
 }
 .secondcontainertitle{
     display: flex;
@@ -103,7 +104,27 @@ button{
     color: #aaacb1;
     text-align: center;
     width: 100px;
+}
+.thirdcontainer{
+    display: flex;
+    flex-direction: column;
     
-    
+}
+
+.thirdcontainertext{
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: light italic;
+    flex-wrap: wrap;
+    padding: 100px 200px 0 200px;
+}
+.thirdcontainercaption{
+    display: flex;
+    background-color: #e5e7eb;
+    padding: 0 250px 100px 200px;
+    justify-content: flex-end;
 }
 
